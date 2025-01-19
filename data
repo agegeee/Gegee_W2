@@ -1,1 +1,48 @@
+# Data Source Overview
 
+This dataset comes from the study titled "**Characterization of intact polar lipids in soils for assessing their origin**" published by Ding et al. (2020). The data collection was part of the Jena Experiment, a large grassland biodiversity study located in Jena, Germany. The dataset includes measurements of intact polar lipids in soil, roots, fungi, collembola, amoebae, and bacteria, collected from various soil samples and cultured organisms. The samples were taken in June 2016, with the goal of understanding the origins and distribution of lipid classes in soil ecosystems.
+
+The dataset is available under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+
+For more information about the research, please refer to the original study published in *Soil Biology and Biochemistry* [here](https://doi.org/10.1016/j.soilbio.2020.108045).
+
+## Dataset Files
+
+The following datasets are included in this collection:
+
+- `amoebae.tab`: Relative abundance of intact polar lipid species in amoebae. [Citation](https://doi.org/10.1594/PANGAEA.910889)
+- `bacteria.tab`: Relative abundance of intact polar lipid species in bacteria. [Citation](https://doi.org/10.1594/PANGAEA.910860)
+- `collembola.tab`: Relative abundance of intact polar lipid species in collembola. [Citation](https://doi.org/10.1594/PANGAEA.910885)
+- `fungi.tab`: Relative abundance of intact polar lipid species in fungi. [Citation](https://doi.org/10.1594/PANGAEA.910873)
+- `lipid_classes_absolute_con.tab`: Absolute abundance of lipid classes in various soil organisms. [Citation](https://doi.org/10.1594/PANGAEA.910578)
+- `lipid_classes_relative_con.tab`: Relative abundance of lipid classes in various soil organisms. [Citation](https://doi.org/10.1594/PANGAEA.910601)
+- `lipid_species_RA_soil.tab`: Relative abundance of intact polar lipid species in soils. [Citation](https://doi.org/10.1594/PANGAEA.910740)
+- `roots.tab`: Relative abundance of intact polar lipid species in roots. [Citation](https://doi.org/10.1594/PANGAEA.910845)
+
+## Data Dictionary
+
+| Filename                    | Variable Name                   | Description                                                                                     |
+|-----------------------------|----------------------------------|-------------------------------------------------------------------------------------------------|
+| `amoebae.tab`               | `Species`                        | Species of amoebae analyzed for intact polar lipids.                                             |
+|                             | `Lipid_Abundance`               | Relative abundance of lipid species in amoebae samples.                                          |
+| `bacteria.tab`              | `Species`                        | Bacterial species analyzed for lipid content.                                                   |
+|                             | `Lipid_Abundance`               | Relative abundance of lipid species in bacterial samples.                                        |
+| `collembola.tab`            | `Species`                        | Collembola species analyzed for lipid content.                                                   |
+|                             | `Lipid_Abundance`               | Relative abundance of lipid species in collembola samples.                                       |
+| `fungi.tab`                 | `Species`                        | Fungal species analyzed for lipid content.                                                      |
+|                             | `Lipid_Abundance`               | Relative abundance of lipid species in fungal samples.                                           |
+| `lipid_classes_absolute_con.tab` | `Lipid_Class`                 | Lipid classes analyzed in different organisms (soil, roots, fungi, etc.).                       |
+|                             | `Absolute_Abundance`            | Absolute abundance of lipid classes in various organisms.                                        |
+| `lipid_classes_relative_con.tab` | `Lipid_Class`                 | Lipid classes analyzed in different organisms.                                                   |
+|                             | `Relative_Abundance`            | Relative abundance of lipid classes in various organisms.                                        |
+| `lipid_species_RA_soil.tab` | `Lipid_Species`                  | Lipid species analyzed in soil samples.                                                         |
+|                             | `Relative_Abundance`            | Relative abundance of lipid species in soil samples.                                            |
+| `roots.tab`                 | `Species`                        | Root samples analyzed for lipid content.                                                        |
+|                             | `Lipid_Abundance`               | Relative abundance of lipid species in root samples.                                            |
+
+For more details on specific lipid classes and species, please refer to the corresponding links for each dataset.
+
+---
+
+**Citation:**  
+Ding, Su; Lange, Markus; Lipp, Julius S; Schwab, Valérie F; Chowdhury, Somak; Pollierer, Melanie M; Krause, Katrin; Li, Dapeng; Kothe, Erika; Scheu, Stefan; Welti, Ruth; Hinrichs, Kai-Uwe; Gleixner, Gerd (2020). *Characterization of intact polar lipids in soils for assessing their origin*. PANGAEA. https://doi.org/10.1594/PANGAEA.910617
